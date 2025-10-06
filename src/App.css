@@ -1,39 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-/* Ensure full height for root elements */
-html, body, #root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #f9fafb; /* Tailwind gray-50 */
-  color: #111827; /* Tailwind gray-900 */
-} 
-
-/* Optional link styling */
-a {
-  color: #2563eb; /* Tailwind blue-600 */
-  text-decoration: none; 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
-
-/* Button focus styling */
-button:focus-visible {
-  outline: 2px solid #2563eb;
-  outline-offset: 2px;
-
-}
-
 
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-
-
+}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -62,5 +39,4 @@ button:focus-visible {
 
 .read-the-docs {
   color: #888;
-}
 }
